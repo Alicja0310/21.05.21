@@ -31,21 +31,30 @@
     float: right;
 }
 
-#grid{
+.grid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 35% auto 10%;
 }
 
 .cennik{
     background-color: black;
-    width: 25%;
     color: white;
+    padding-left: 20px;
+    margin: 30px;
 }
 
 .cenniki{
     color: white;
 }
 
-.zdjecia{
-
+img{
+    width: 200px;
+    height: 220px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.kwadrat {
+    background-color: #675252;
+}
+
