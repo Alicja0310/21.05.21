@@ -1,0 +1,51 @@
+.nawigacja {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+
+}
+
+.icon{
+    color: white;
+    margin: 12px;
+}
+
+.nav0{
+    color: #685c5e;
+    font-size: 30px;
+    float: left;
+}
+
+.nav1{
+    color: #674343;
+    font-size: 30px;
+}
+
+.nav2{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.right{
+    float: right;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cennik{
+    background-color: black;
+    width: 25%;
+    color: white;
+}
+
+.cenniki{
+    color: white;
+}
+
+.zdjecia{
+
+}
