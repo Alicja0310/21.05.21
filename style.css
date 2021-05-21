@@ -2,7 +2,6 @@
     background-color: black;
     height: 100px;
     width: 100%;
-
 }
 
 .icon{
@@ -31,30 +30,68 @@
     float: right;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 35% auto 10%;
-}
-
-.cennik{
+.div-cennik{
     background-color: black;
+    width: 90%;
+    margin: auto;
     color: white;
-    padding-left: 20px;
-    margin: 30px;
 }
-
 .cenniki{
     color: white;
 }
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-color: #674343;
+}
+.xd{
+    text-align: center;
+}
+.btn{
+    color: white;
+    background-color: #6a3434;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
 
-img{
+.border-main{
+    border-bottom: 2px solid black;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+h2{
+    text-align: center;
+}
+.inputEmailIHaslo{
+    height: 20px;
     width: 200px;
-    height: 220px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin: auto;
 }
-
-.kwadrat {
-    background-color: #675252;
+.tel1{
+    margin: auto;
+    height: 20px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 42%;
 }
-
+.btn1{
+    color: white;
+    background-color: #6a3434;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 46%;
+}
+.zarej{
+    color: black;
+    text-decoration: none;
+}

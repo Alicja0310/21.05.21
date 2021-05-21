@@ -1,0 +1,60 @@
+.nawigacja {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+
+}
+
+.icon{
+    color: white;
+    margin: 12px;
+}
+
+.nav0{
+    color: #685c5e;
+    font-size: 30px;
+    float: left;
+}
+
+.nav1{
+    color: #674343;
+    font-size: 30px;
+}
+
+.nav2{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.right{
+    float: right;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 35% auto 10%;
+}
+
+.cennik{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    margin: 30px;
+}
+
+.cenniki{
+    color: white;
+}
+
+img{
+    width: 200px;
+    height: 220px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.kwadrat {
+    background-color: #675252;
+}
+

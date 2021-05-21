@@ -48,6 +48,9 @@ div7.setAttribute('class', 'div7')
 const naglowek2 = document.createElement('h1')
 naglowek2.setAttribute('class', 'naglowek2')
 naglowek2.innerText = 'Usługi'
+const naglowek3 = document.createElement('p')
+naglowek3.setAttribute('class', 'naglowek3')
+naglowek3.innerText = 'usługi kosmetyczne'
 
 
 
@@ -80,17 +83,8 @@ naglowek1.appendChild(opis)
 
 glownyDiv.appendChild(div7)
 div7.appendChild(naglowek2)
+div7.appendChild(naglowek3)
 
 
 
-// div2.appendChild(div4)
-// div4.appendChild(spotkanie)
-// div2.appendChild(zdjecia5)
-// div2.appendChild(zdjecia4)
-// div2.appendChild(zdjecia3)
-// div2.appendChild(zdjecia2)
-// div2.appendChild(zdjecia1)
-// div1.appendChild(paragrafCennikowWZamowieniu)
-// glowny-div.appendChild(div1)
-// glowny-div.appendChild(div2)
-// glowny-div.appendChild(div3)
+
