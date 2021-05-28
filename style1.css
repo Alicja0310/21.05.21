@@ -14,6 +14,10 @@ body{
     margin: 12px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav0{
     color: #685c5e;
     font-size: 30px;
@@ -95,6 +99,13 @@ img{
     padding-left: 20px;
     font-size: 34px;
     color: #ffffff;
+    padding-top: 30px;
+}
+
+.spotkanie{
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 34px;
 }
 
 .griditem2{

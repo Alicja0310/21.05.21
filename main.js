@@ -33,8 +33,10 @@ glownyDiv2.setAttribute('class', 'glownyDiv2')
 const div5 = document.createElement('div')
 div5.setAttribute('class', 'griditem1')
 
-const spotkanie = document.createElement('p')
+const spotkanie = document.createElement('a')
 spotkanie.innerText = 'Umów spotkanie'
+spotkanie.setAttribute('href', './zamow.html')
+spotkanie.setAttribute('class', 'spotkanie') 
 
 const div6 = document.createElement('div')
 div6.setAttribute('class', 'griditem2')
